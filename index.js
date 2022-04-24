@@ -15,20 +15,26 @@ const sleep = (ms = 2000) => new Promise((r) => setTimeout(r, ms));
 
 // Welcome function
 async function welcome() {
+    const figletMsg = `hectorwithc`
+    figlet(figletMsg, (err, data) => {
+        console.log(gradient.fruit.multiline(data));
+    });
+    await sleep(100);
+
     const title = chalkAnimation.karaoke(
-        'By @hectorwithc \n'
+        'Made with Javascript...'
     );
 
-    await sleep();
+    await sleep(2150);
     title.stop();
 
     console.log(`
     
     ${chalk.bgGreen("HOW TO USE?")}
-    I will accept commands.
+    Enter a command and see what happens...
 
     ${chalk.cyan('COMMANDS')}
-    quiz - The main use of this app.
+    quiz - The quiz.
     about - About this app.
     help - This menu.
     clear - Clears the console.

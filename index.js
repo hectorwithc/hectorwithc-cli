@@ -48,7 +48,7 @@ async function inputCommand() {
     const answers = await inquirer.prompt({
         name: 'command',
         type: 'input',
-        message: 'command $'
+        message: `${gradient.fruit('command ')}${chalk.greenBright('$')}`
     });
 
     command = answers.command;

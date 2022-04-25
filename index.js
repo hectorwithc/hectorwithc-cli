@@ -43,6 +43,34 @@ async function welcome() {
     `)
 }
 
+// Command functions
+async function quiz() {
+
+}
+
+async function about() {
+
+}
+
+async function help() {
+
+    console.log(`
+    
+    ${chalk.bgGreen("HOW TO USE?")}
+    Enter a command and see what happens...
+
+    ${chalk.cyan('COMMANDS')}
+    quiz - The quiz.
+    about - About this app.
+    help - This menu.
+    clear - Clears the console.
+    exit - Exits the app.
+
+    `)
+
+    await inputCommand()
+}
+
 // Handle the commands
 async function inputCommand() {
     const answers = await inquirer.prompt({

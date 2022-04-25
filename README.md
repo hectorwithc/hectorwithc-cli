@@ -1,17 +1,13 @@
-<h1 align="center">
+<h1 align="left">
     hectorwithc's (CLI)
 </h1>
-<h4 align="center">
+<h4 align="left">
     A command line app. 
     <br/>
     Made with the sole purpuse of being a 
     <br/>
     "fun first npm package".
 </h4>
-
-
-<br/>
-<br/>
 
 ## How to use
 **Run `npx hectorwithc` in your preferred terminal.**

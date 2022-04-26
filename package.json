@@ -1,6 +1,6 @@
 {
   "name": "quiz-agent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command line app. Made with the sole purpuse of being a \"fun first npm package\".",
   "main": "index.js",
   "type": "module",

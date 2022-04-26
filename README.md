@@ -1,5 +1,5 @@
 <h1 align="left">
-    Quiz Agent (CLI)
+    Quiz-Agent (CLI)
 </h1>
 
 ![Demo](./assets/demo.png)

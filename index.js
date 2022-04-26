@@ -228,7 +228,7 @@ async function quiz() {
     const q8 = await inquirer.prompt({
         name: 'q8',
         type: 'list',
-        message: `${chalk.green('What is this made with?')} `,
+        message: `${chalk.green('What programing language is this made app made with?')} `,
         choices: ["Javascript", "Java", "Python"]
     });
 

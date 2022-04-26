@@ -312,5 +312,3 @@ console.clear();
 // Timeline
 await welcome();
 await inputCommand()
-// Sleep before exit
-await sleep();

@@ -139,14 +139,14 @@ async function quiz() {
     const q3 = await inquirer.prompt({
         name: 'q3',
         type: 'list',
-        message: `${chalk.green('When was node.js released?')} `,
-        choices: ["Oracle", "Linus Torvalds", "Brendan Eich"]
+        message: `${chalk.green('Who made Javascript?')} `,
+        choices: ["Mark Zuckerberg", "Linus Torvalds", "Brendan Eich"]
     });
 
     const q3input = q3.q3;
     await spinnerStart();
 
-    if (q3input === 'Oracle') {
+    if (q3input === 'Mark Zuckerberg') {
         await spinnerWrong();
         await gameOver("HIDDEN");
     } else if (q3input === 'Linus Torvalds') {

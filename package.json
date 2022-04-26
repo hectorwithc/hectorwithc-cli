@@ -1,5 +1,5 @@
 {
-  "name": "hectorwithc",
+  "name": "quiz-agent",
   "version": "1.0.0",
   "description": "A command line app. Made with the sole purpuse of being a \"fun first npm package\".",
   "main": "index.js",
@@ -21,14 +21,15 @@
     "Node",
     "Command",
     "Tool",
-    "Fun"
+    "Fun",
+    "quiz-agent"
   ],
   "author": "hectorwithc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hectorwithc/hectorwithc-cli/issues"
+    "url": "https://github.com/hectorwithc/quiz-agent/issues"
   },
-  "homepage": "https://github.com/hectorwithc/hectorwithc-cli#readme",
+  "homepage": "https://github.com/hectorwithc/quiz-agent#readme",
   "bin": "./index.js",
   "dependencies": {
     "chalk": "^5.0.1",

@@ -9,4 +9,7 @@
 - Terminal (Powershell, bash, etc...)
 
 **Instructions**
-- Run `npx quiz-agent` in your preferred terminal.
+Use this command to start the experience
+```
+npx quiz-agent
+``` 
